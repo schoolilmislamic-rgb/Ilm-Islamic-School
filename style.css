@@ -443,4 +443,12 @@ display:flex;
 gap:30px;
 list-style:none;
 align-items:center;
+margin:0;
+padding:0;
+}
+
+nav{
+display:flex;
+align-items:center;
+gap:30px;
 }

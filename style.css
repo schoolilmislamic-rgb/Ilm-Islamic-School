@@ -438,3 +438,9 @@ font-size:30px;
 .dropdown-menu.show {
   display: block;
 }
+.nav-links{
+display:flex;
+gap:30px;
+list-style:none;
+align-items:center;
+}

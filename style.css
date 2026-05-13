@@ -452,3 +452,22 @@ display:flex;
 align-items:center;
 gap:30px;
 }
+.dropdown-menu{
+opacity:0;
+visibility:hidden;
+transform:translateY(10px);
+transition:all 0.3s ease;
+}
+
+.dropdown:hover .dropdown-menu{
+opacity:1;
+visibility:visible;
+transform:translateY(0);
+}
+
+.dropdown-menu.show{
+opacity:1;
+visibility:visible;
+transform:translateY(0);
+display:block;
+}

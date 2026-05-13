@@ -529,3 +529,13 @@ box-shadow:0 5px 15px rgba(0,0,0,0.1);
 display:flex;
 }
 }
+.fade-in{
+opacity:0;
+transform:translateY(30px);
+transition:all 1s ease;
+}
+
+.fade-in.show{
+opacity:1;
+transform:translateY(0);
+}

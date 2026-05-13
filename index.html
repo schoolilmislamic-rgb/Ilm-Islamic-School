@@ -23,7 +23,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 <!-- HEADER -->
 
 <header>
-
+<div class="menu-toggle">☰</div>
 <div class="logo">
    <img src="Logo.png" alt="Logo">
    <div>
@@ -335,5 +335,13 @@ Get in Touch
 <a href="https://wa.me/919747790503" class="whatsapp-float">
 💬
 </a>
+   <script>
+const toggle = document.querySelector(".menu-toggle");
+const nav = document.querySelector(".nav-links");
+
+toggle.addEventListener("click", () => {
+nav.classList.toggle("active");
+});
+</script>
 </body>
 </html>

@@ -122,23 +122,23 @@ border-radius:30px;
 .features{
 display:grid;
 grid-template-columns:repeat(4,1fr);
-gap:20px;
-padding:50px 7%;
+gap:15px;
+padding:30px 7%;
 margin-top:-40px;
 }
 
 .feature-box{
 background:white;
-padding:35px;
+padding:20px;
 text-align:center;
 border-radius:20px;
 box-shadow:0 5px 20px rgba(0,0,0,0.05);
 }
 
 .feature-box i{
-font-size:40px;
+font-size:30px;
 color:#0d4d23;
-margin-bottom:20px;
+margin-bottom:10px;
 }
 
 .feature-box h4{
